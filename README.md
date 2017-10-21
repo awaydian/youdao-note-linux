@@ -1,6 +1,7 @@
 # youdao-note-linux</br>
 youdao note for linux user </br>
-有道云官网 (https://note.youdao.com/)</br>
+##有道云linux版</br>
+有道云见官网 (https://note.youdao.com/),官方只提供了mac,windows地桌面版</br>
 本库是基于nightmare、electron的嵌入式webview，目的是为了能在linux桌面便捷地使用有道云笔记。</br>
 </br>
 ## 使用</br>
