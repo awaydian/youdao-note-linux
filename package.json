@@ -1,0 +1,16 @@
+{
+  "name": "youdao-linux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "version1.0.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node youdao.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.7.9",
+    "nightmare": "^2.10.0"
+  }
+}
