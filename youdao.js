@@ -8,9 +8,9 @@ var COOKIES = {
 		var self = this;
 		return new Promise((resolve,reject) => {
 			fs.exists(self.COOKIES_PATH, function( exists ){
-			    if(!exists) return reject({code:-1,msg:'cannot find cookie file,please login'});
+			    if(!exists) return reject('.cookies not found , sign in please');
 			    fs.readFile(self.COOKIES_PATH,'utf8',function(err,data){
-					if(err || data == '' || data == '{}') return reject(err);
+					if(err || data == '' || data == '{}') return reject('.cookies not found , sign in please');
 					var obj = JSON.parse(data);
 					resolve(obj);
 				})
